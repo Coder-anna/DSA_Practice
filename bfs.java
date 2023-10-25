@@ -1,5 +1,3 @@
-// Java program to print BFS traversal from a given source
-// vertex. BFS(int s) traverses vertices reachable from s.
 import java.util.*;
 
 // This class represents a directed graph using adjacency
@@ -27,8 +25,7 @@ class bfs {
 	// prints BFS traversal from a given source s
 	void BFS(int s)
 	{
-		// Mark all the vertices as not visited(By default
-		// set as false)
+		// Mark all the vertices as not visited
 		boolean visited[] = new boolean[V];
 
 		// Create a queue for BFS
